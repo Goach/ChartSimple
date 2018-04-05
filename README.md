@@ -36,6 +36,20 @@
 
 - 依赖
 
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+```
+```
+ dependencies {
+	        compile 'com.github.Goach:ChartSimple:1.0.0'
+	}
+```
 
 
 - 布局
