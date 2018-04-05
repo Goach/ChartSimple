@@ -1,6 +1,10 @@
 # ChartSimple
 通过Canvas绘制一个简单的折线图
 
+效果图
+
+![折线图.jpg](https://upload-images.jianshu.io/upload_images/2148217-d6d6e1dc3f1a70f1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 # 定义的Style
 
 ```
