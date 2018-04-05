@@ -38,17 +38,17 @@
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
   
 ```
 ```
  dependencies {
-	        compile 'com.github.Goach:ChartSimple:1.0.0'
-	}
+	compile 'com.github.Goach:ChartSimple:1.0.0'
+}
 ```
 
 
