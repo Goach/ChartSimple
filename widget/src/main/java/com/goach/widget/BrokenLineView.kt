@@ -155,6 +155,8 @@ class BrokenLineView : View {
         mBrokenLinePaint.strokeWidth = mBrokenWidth.toFloat()
         mBrokenLinePaint.style = Paint.Style.STROKE
 		mBrokenLinePaint.color = mBrokenColor
+	mBrokenLinePaint.color =  mBrokenColor   
+	
 
         mXTextHeight = getTextHeight(mXTextPaint)
         mYTextHeight = getTextHeight(mYTextPaint)
