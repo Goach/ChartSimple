@@ -272,6 +272,7 @@ class BrokenLineView : View {
     private fun drawSolid(canvas: Canvas){
         val xLittleUnit = itemXWidth/mXUnitValue
         val yLittleUnit = itemYWidth/mYUnitValue
+	mSolidPath.reset()
         mSolidPath.moveTo(xPadding,mHeight - yPadding)
         mDataLists.forEach {
             mSolidPath.lineTo(xPadding + xLittleUnit * it.x , mHeight - yPadding - yLittleUnit * it.y)
@@ -283,6 +284,7 @@ class BrokenLineView : View {
     private fun drawBroken(canvas: Canvas){
         val xLittleUnit = itemXWidth/mXUnitValue
         val yLittleUnit = itemYWidth/mYUnitValue
+	mBrokenPath.reset()
         mDataLists.forEachIndexed { index, point ->
             if(index==0){
                 mBrokenPath.moveTo(xPadding + xLittleUnit * point.x , mHeight - yPadding - yLittleUnit * point.y)
