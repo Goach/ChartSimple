@@ -229,8 +229,6 @@ class BrokenLineView : View {
 
     }
     private fun drawXY(canvas: Canvas){
-        Log.d("zgx","mHeight===$mHeight")
-        Log.d("zgx","mWidth===$mWidth")
         yMaxWidth = getYTextUnitMaxWidth()
         xPadding = mYBorderWidth/2 + yMaxWidth + mYTextPadding
         //线/2+文字高度+文字边距
